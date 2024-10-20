@@ -1,14 +1,14 @@
 body {
-    background-color: #f0f8ff;
+    background-color: #f4f4f4; 
 }
 
 h1, h2 {
-    color: #0a2e76;
+    color: #2c3e50; 
     font-family: 'Roboto', sans-serif; 
 }
 
 p {
-    color: #0a2f76;
+    color: #34495e; 
     font-size: 18px;
     font-family: 'Arial', Helvetica, sans-serif;
 }
@@ -17,18 +17,18 @@ section {
     margin: 40px auto;
     padding: 20px;
     max-width: 900px;
-    background-color: #ffffff;
+    background-color: #ffffff; 
     border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
     transition: background-color 0.3s ease;
 }
 
 section:hover {
-    background-color: #98c8f3;
+    background-color: #e0f7fa; 
 }
 
-
 header {
-    background-color: #1e90ff;
+    background-color: #3498db; 
     padding: 20px;
     text-align: center;
     border-radius: 8px;
@@ -38,13 +38,13 @@ header h1 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 15px;
-    color: #0a2f76;
-
+    color: #ffffff; 
 }
 
 header p {
     font-size: 18px;
     line-height: 1.6;
+    color: #ecf0f1; 
 }
 
 .carousel-inner img {
@@ -55,34 +55,56 @@ header p {
 
 blockquote {
     font-size: 26px;
-    color: #0a2f76;
+    color: #2980b9; 
     font-style: italic;
     text-align: center;
     margin: 20px 0;
-    border-left: 5px solid #416dbe;
+    border-left: 5px solid #3498db; 
     padding-left: 20px;
 }
 
-#hobbies{
+#hobbies {
     font-size: 18px;
-    color: #0a2f76;
+    color: #2c3e50; 
 }
 
-
 footer {
-    background-color: #081744;
+    background-color: #4077ad; 
     text-align: center;
     padding: 20px;
     border-radius: 8px;
     transition: background-color 0.5s;
 }
 
-footer:hover{
-    background-color: #36b4e6;
+footer:hover {
+    background-color: #36b4e6; 
+}
+
+.icon-link {
+    background-color: #3498db; 
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    fill: #007bff; 
+}
+
+.box {
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: rgba(52, 152, 219, 0.1); 
 }
 
 footer .btn {
-    background-color: #1e90ff;
+    background-color: #1e90ff; 
     color: white;
     padding: 10px 20px;
     border-radius: 50px;
@@ -91,29 +113,17 @@ footer .btn {
 }
 
 footer .btn:hover {
-    background-color: #0a2e76;
+    background-color: #0a2e76; 
     transform: scale(1.05);
 }
 
-.icon-link {
-    background-color: #1e90ff;
-    padding: 10px 20px 10px 20px;
-    border-radius: 50px;
+.carousel-item {
+    transition: transform 1s ease-in-out;
 }
 
-.icon {
-    transition: transform 0.3s easy;
-}
-
-.icon:hover {
-    transform: scale(1.2);
-    fill: #007bff;
-}
-
-.box {
-    transition: background-color 0.3s ease;
-}
-
-.box:hover {
-    background-color: rgba(30, 144, 255, 0.1);
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: block;
+    transition: transform 1s ease-in-out;
 }
