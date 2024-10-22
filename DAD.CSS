@@ -84,13 +84,15 @@ footer:hover {
     background-color: #3498db; 
     padding: 10px 20px;
     border-radius: 50px;
+    
 }
 
-.icon {
+.button, .icon {
     transition: transform 0.3s ease;
+    color: #162331;
 }
 
-.icon:hover {
+.button:hover, .icon:hover {
     transform: scale(1.2);
     fill: #007bff; 
 }
