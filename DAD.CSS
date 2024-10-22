@@ -93,7 +93,7 @@ footer:hover {
 }
 
 .button:hover, .icon:hover {
-    transform: scale(1.2);
+    transform: scale(1.35);
     fill: #007bff; 
 }
 
